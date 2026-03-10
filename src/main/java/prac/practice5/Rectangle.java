@@ -3,6 +3,8 @@ package prac.practice5;
 public class Rectangle extends Figure {
     private double width;
     private double height;
+    String info = "figure";
+
 
     public Rectangle(double width, double height) {
         this.width = width;
@@ -19,7 +21,7 @@ public class Rectangle extends Figure {
         return 2 * (width + height);
     }
 
-    // Дополнительный метод — диагональ
+    // диагональ
     public double diagonal() {
         return Math.sqrt(width * width + height * height);
     }

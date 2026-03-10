@@ -42,9 +42,6 @@ public class Main {
             System.out.println(method);
         }
 
-        //Виклик будь-якого методу
-        System.out.println("\nf) Invoke method reflectively:");
-
         String str = "reflection";
 
         // беремо метод substring(int, int)

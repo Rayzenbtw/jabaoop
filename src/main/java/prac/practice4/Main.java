@@ -9,13 +9,13 @@ public class Main {
         System.out.println(p1.toString());
         System.out.println(p2.toString());
 
-        Pixel pixel = (Pixel) p2;
-        pixel.setColor("Green");
-        System.out.println(p2.toString());
-
-//        if (p2 instanceof Pixel pixel) {
-//            pixel.setColor("Green");
-//        }
+//        Pixel pixel = (Pixel) p2;
+//        pixel.setColor("Green");
 //        System.out.println(p2.toString());
+
+        if (p2 instanceof Pixel pixel) {
+            pixel.setColor("Green");
+        }
+        System.out.println(p2.toString());
     }
 }

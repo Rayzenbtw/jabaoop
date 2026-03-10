@@ -1,6 +1,8 @@
 package prac.practice5;
 
 public class Circle extends Figure {
+    String info = "figure";
+
     private double radius;
 
     public Circle(double radius) {

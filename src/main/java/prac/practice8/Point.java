@@ -1,4 +1,4 @@
-package prac.practice1;
+package prac.practice8;
 
 public class Point {
     private double x;
@@ -17,10 +17,9 @@ public class Point {
 
     @Override
     public String toString() {
-        return "Point{" +
-                "x=" + x +
-                ", y=" + y +
-                '}';
+        return "(" + x +
+                "," + y +
+                ')';
     }
 
     public double getX() {
