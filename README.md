@@ -15,7 +15,9 @@ jabaoop/
 │               ├── practice3/
 │               ├── practice4/
 │               ├── practice5/
-│               └── practice7/
+│               ├── practice6/
+│               ├── practice7/
+│               └── practice8/
 └── pom.xml
 ```
 
@@ -79,7 +81,9 @@ mvn exec:java -Dexec.mainClass="prac.practice1.Main"
 - **Practice 3** - [Додайте опис]
 - **Practice 4** - [Додайте опис]
 - **Practice 5** - [Додайте опис]
+- **Practice 6** - [Додайте опис]
 - **Practice 7** - [Додайте опис]
+- **Practice *8* - [Додайте опис]
 
 ## ⚙️ Вимоги
 
