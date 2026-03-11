@@ -83,7 +83,7 @@ mvn exec:java -Dexec.mainClass="prac.practice1.Main"
 - **Practice 5** - [Додайте опис]
 - **Practice 6** - [Додайте опис]
 - **Practice 7** - [Додайте опис]
-- **Practice *8* - [Додайте опис]
+- **Practice 8 ** - [Додайте опис]
 
 ## ⚙️ Вимоги
 
