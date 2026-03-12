@@ -17,7 +17,13 @@ jabaoop/
 │               ├── practice5/
 │               ├── practice6/
 │               ├── practice7/
-│               └── practice8/
+│               ├── practice8/
+│               └── practice9/
+│           └── indiv/
+│               ├── indiv1/
+│               ├── indiv2/
+│               ├── indiv3/
+│               └── indiv4/
 └── pom.xml
 ```
 
