@@ -82,23 +82,22 @@ mvn exec:java -Dexec.mainClass="prac.practice1.Main"
 
 ## 📝 Доступні практики
 
-- **Practice 1** - Робота з точками та колами (Point, Circle)
-- **Practice 2** - [Додайте опис]
-- **Practice 3** - [Додайте опис]
-- **Practice 4** - [Додайте опис]
-- **Practice 5** - [Додайте опис]
-- **Practice 6** - [Додайте опис]
-- **Practice 7** - [Додайте опис]
-- **Practice 8** - [Додайте опис]
-- **Practice 9** - [Додайте опис]
+- **Practice 1** — Робота з точками та колами (Point, Circle)
+- **Practice 2** — Вектори в *n*-вимірному просторі: конструктори (за розміром/масивом/копіювання), get/set з перевірками, обчислення довжини (нормы) та вивід.
+- **Practice 3** — Модель банківського рахунку (*BankAccount*): депозит/зняття з комісією, статичні поля (загальний баланс, резерв банку, процентна ставка) та нарахування відсотків.
+- **Practice 4** — Наслідування та приведення типів: `Point` → `Pixel` (колір), перевизначення `toString()`, робота з `instanceof` (pattern matching) та поліморфізм.
+- **Practice 5** — Абстрактні класи та поліморфізм: `Figure` (area/perimeter) і реалізації `Rectangle`, `Circle`, `Triangle`; демонстрація масиву фігур + додатковий метод `diagonal()` для прямокутника.
+- **Practice 6** — Внутрішні/локальні/анонімні класи: власний інтерфейс `Iterator<T>` і різні реалізації ітератора для вектора (`inner`, `anonymous`, `local`).
+- **Practice 7** — Reflection API: отримання `Class` різними способами, перегляд модифікаторів/конструкторів/полів/методів та виклик методу через `invoke()` (на прикладі `String.substring`).
+- **Practice 8** — Колекції `ArrayList` та `TreeSet` для точок: `equals()`, `Comparator` (сортування по x/y), видалення через `Iterator`, сортування `Collections.sort`, пошук `Collections.binarySearch`.
+- **Practice 9** — *(не знайдено в репозиторії / немає файлів у `src/main/java/prac/practice9`)*
 
-## 📝 Доступні Індивідуальні
-- **Individual 1** - [Додайте опис]
-- **Individual 2** - [Додайте опис]
-- **Individual 3** - [Додайте опис]
-- **Individual 4** - [Додайте опис]
+## 📝 Доступні індивідуальні
 
-
+- **Individual 1** — *(не знайдено в репозиторії / немає `src/main/java/individual/indiv1`)*
+- **Individual 2** — Консольний застосунок “BikeShop”: абстрактний `Bicycle` + спадкоємці (`MountainBike`, `ElectricBike`), меню в консолі, збереження/завантаження колекції через Java Serialization.
+- **Individual 3** — Планувальник подій: `Event` + час `EventTime` (Comparable), зберігання в `TreeMap`, читання/запис у файл (репозиторій `EventFileRepository`) у форматі `yyyy-MM-dd HH:mm|title|location`.
+- **Individual 4** — Модель готелю з багатопоточністю: заявки на заселення `Booking` (Runnable/Thread), синхронізація `synchronized` + `wait/notify`, імітація асинхронного надходження заявок через `ScheduledExecutorService`, пошук гостя за прізвищем.
 
 ## ⚙️ Вимоги
 
